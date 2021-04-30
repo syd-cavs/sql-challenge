@@ -22,7 +22,7 @@ CREATE TABLE employees(
 	first_name VARCHAR,
 	last_name VARCHAR,
 	sex VARCHAR,
-	hire_date VARCHAR,
+	hire_date DATE,
 	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
 
